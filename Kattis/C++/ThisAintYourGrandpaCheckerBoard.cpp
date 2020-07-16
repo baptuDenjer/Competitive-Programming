@@ -14,10 +14,8 @@
 #include<queue>
 #include<bitset>
 #include<climits>
-#include<iomanip> 
 #include<sstream>
-#include<unordered_set>
-#include<fstream>
+#include<iomanip>
 #define endl '\n'
 using namespace std;
 
@@ -26,11 +24,13 @@ using namespace std;
 #define umap unordered_map
 #define fast ios::sync_with_stdio(false); cin.tie(NULL);
 #define uset unordered_set
-#define FOR(i,a) for(int i = 0; i < a; i++)
+#define REP(i,a,b) for(int i = a; i < b; i++)
 #define PI acos(-1)
-#define uset unordered_set
+#define Euler exp(1)
 #define fi first
 #define se second
+#define RESET(N,value, arr) REP(i,0,N) arr[i] = value
+
 using vi = vector<int>;
 using vs = vector<string>;
 using ss = stringstream;
@@ -52,7 +52,7 @@ using li = list<int>;
 using msli = map<string,li>;
 using msvi = map<string,vi>;
 using umsvi = umap<string,vi>;
-using vvi = vector<vi>;
+using vf = vector<float>;
 
 int main()
 {
@@ -63,15 +63,15 @@ int main()
 	
 	string mat[N];
 	
-	FOR(i,N)
+	REP(i,0,N)
 		cin >> mat[i];
 	
 	bool flag = false;
 	
-	FOR(i,N)
+	REP(i,0,N)
 	{
 		int cW = 0, cB = 0, conW = 0, conB = 0;
-		FOR(j,N)
+		REP(j,0,N)
 			if (mat[i][j] == 'W')
 			{
 				cW++;
@@ -93,10 +93,10 @@ int main()
 			flag = true;
 	}
 	
-	FOR(i,N)
+	REP(i,0,N)
 	{
 		int cW = 0, cB = 0, conW = 0, conB = 0;
-		FOR(j,N)
+		REP(j,0,N)
 			if (mat[j][i] == 'W')
 			{
 				cW++;

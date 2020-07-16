@@ -14,10 +14,8 @@
 #include<queue>
 #include<bitset>
 #include<climits>
-#include<iomanip> 
 #include<sstream>
-#include<unordered_set>
-#include<fstream>
+#include<iomanip>
 #define endl '\n'
 using namespace std;
 
@@ -26,18 +24,17 @@ using namespace std;
 #define umap unordered_map
 #define fast ios::sync_with_stdio(false); cin.tie(NULL);
 #define uset unordered_set
-#define FOR(i,a) for(int i = 0; i < a; i++)
+#define REP(i,a,b) for(int i = a; i < b; i++)
 #define PI acos(-1)
-#define uset unordered_set
+#define Euler exp(1)
 #define fi first
 #define se second
-#define RESET(N,value,arr) FOR(i,N) arr[i] = value
+#define RESET(N,value, arr) REP(i,0,N) arr[i] = value
 
 using vi = vector<int>;
 using vs = vector<string>;
 using ss = stringstream;
 using sets = set<string>;
-using usets = unordered_set<string>;
 using msi = map<string,int>;
 using msvs = map<string,vs>;
 using ll = long long;
@@ -55,7 +52,7 @@ using li = list<int>;
 using msli = map<string,li>;
 using msvi = map<string,vi>;
 using umsvi = umap<string,vi>;
-using vvi = vector<vi>;
+using vf = vector<float>;
 
 int main()
 {

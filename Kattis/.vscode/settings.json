@@ -6,6 +6,9 @@
             "deque": "cpp",
             "list": "cpp",
             "ios": "cpp",
-            "xiosbase": "cpp"
+            "xiosbase": "cpp",
+            "unordered_map": "cpp",
+            "iosfwd": "cpp",
+            "unordered_set": "cpp"
       }
 }

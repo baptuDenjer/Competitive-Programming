@@ -14,6 +14,7 @@
 #include<queue>
 #include<bitset>
 #include<climits>
+#include<sstream>
 #include<iomanip>
 #define endl '\n'
 using namespace std;
@@ -24,6 +25,11 @@ using namespace std;
 #define fast ios::sync_with_stdio(false); cin.tie(NULL);
 #define uset unordered_set
 #define REP(i,a,b) for(int i = a; i < b; i++)
+#define PI acos(-1)
+#define Euler exp(1)
+#define fi first
+#define se second
+#define RESET(N,value, arr) REP(i,0,N) arr[i] = value
 
 using vi = vector<int>;
 using vs = vector<string>;
@@ -46,6 +52,7 @@ using li = list<int>;
 using msli = map<string,li>;
 using msvi = map<string,vi>;
 using umsvi = umap<string,vi>;
+using vf = vector<float>;
 
 double dist(double x1, double y1, double x2, double y2)
 {
