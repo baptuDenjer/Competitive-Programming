@@ -1,2 +1,2 @@
 
-using vf = vector<float>;
+    fast
