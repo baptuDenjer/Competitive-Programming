@@ -1,0 +1,2 @@
+
+using vf = vector<float>;

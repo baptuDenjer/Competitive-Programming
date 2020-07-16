@@ -1,0 +1,11 @@
+{
+      "files.associations": {
+            "vector": "cpp",
+            "xstring": "cpp",
+            "iostream": "cpp",
+            "deque": "cpp",
+            "list": "cpp",
+            "ios": "cpp",
+            "xiosbase": "cpp"
+      }
+}
